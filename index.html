@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link css file  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Maths Game</title>
+</head>
+<body>
+    <h1 id="heading">ASN Maths Game Project JavaScript</h1>
+    <img id="eye" src="close.png" width="50px" height="50px">
+    <!-- Main Container BOX-------------------------  -->
+    <div id="container" >
+        <!-- For score ------------ -->
+        <div id="score">
+            Score: <span id="scorevalue">0</span>
+        </div>
+        <!-- Status Messeges  -->
+        <div id="correct">
+            correct
+        </div>
+        <div id="wrong">
+            Try Again
+        </div>
+        <!-- Question Box For Display the  Question  -->
+        <div id="question">
+            7x9
+        </div>
+        <!-- Instruction Box  -->
+        <div id="instruction" >
+            fsafdf
+        </div>
+        <!-- Choices Boxs  -->
+        <div id="choices">
+            <div id="box1" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">df</div>
+            <div id="box2" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">sdf</div>
+            <div id="box3" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">sdf</div>
+            <div id="box4" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">dfsdf</div>
+        </div>
+        <!-- Start Button  -->
+        <div id="startReset">
+            Start Game
+        </div>
+        <!-- Timer  -->
+        <div id="timer">
+            Time Remaining: <span id="timeValue">60</span> sec 
+        </div>
+    </div>
+
+    <script>
+        function eyeOpen(){
+            let eye = document.getElementById('eye').src = "open.png";
+        }
+        function eyeclose(){
+            let eye1 = document.getElementById('eye').src = "close.png";
+        }
+    </script>
+
+</body>
+
+</html>
