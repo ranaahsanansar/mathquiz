@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1200px){
+    
+}
+
+@media only screen and (max-width: 1023px) {
+    
+}
+
+@media only screen and (max-width: 767px) {
+   
+    html body {
+        width: 470px;
+    }
+    #container {
+        width: 420px;
+
+    }
+    #score{
+        left: 360px;
+    }
+    #question {
+        width: 300px;
+    }
+    #instruction {
+        width: 400px;
+    }
+    #choices {
+        width: 420px;
+    }
+    .box {
+    margin-right: 26px;
+    }
+    #gameOver {
+        width: 425px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* html body {
+        width: 480px;
+    } */
+}
