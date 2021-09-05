@@ -111,11 +111,7 @@ html {
     text-shadow: 2px 2px red; */
 }
 .box:active{
-    background-color: rgba(115, 255, 0, 0.904);
     box-shadow: 0px 0px rgb(225, 229, 248);
-    font-size: 50px;
-    text-shadow: 2px 2px red; 
-    color: rgb(255, 255, 255);
     top: 4px;
 }
 #box4 {
