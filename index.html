@@ -30,14 +30,14 @@
         </div>
         <!-- Instruction Box  -->
         <div id="instruction" >
-            fsafdf
+            <span>Click on correct answer</span> 
         </div>
         <!-- Choices Boxs  -->
         <div id="choices">
-            <div id="box1" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">df</div>
-            <div id="box2" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">sdf</div>
-            <div id="box3" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">sdf</div>
-            <div id="box4" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">dfsdf</div>
+            <div id="box1" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">24</div>
+            <div id="box2" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">63</div>
+            <div id="box3" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">26</div>
+            <div id="box4" class="box" onmouseover="eyeOpen()" onmouseleave="eyeclose()">40</div>
         </div>
         <!-- Start Button  -->
         <div id="startReset">
@@ -47,16 +47,14 @@
         <div id="timer">
             Time Remaining: <span id="timeValue">60</span> sec 
         </div>
+        <!-- Gmae Over Message  -->
+        <div id="gameOver">
+            <p>Game Over</p>
+            <p>Your Score is 20</p>
+        </div>
     </div>
 
-    <script>
-        function eyeOpen(){
-            let eye = document.getElementById('eye').src = "open.png";
-        }
-        function eyeclose(){
-            let eye1 = document.getElementById('eye').src = "close.png";
-        }
-    </script>
+    <script src="javascript.js"></script>
 
 </body>
 

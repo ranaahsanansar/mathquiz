@@ -13,7 +13,7 @@ html {
     height: 400px;
     width: 500px;
     background-color: rgb(238, 174, 37);
-    margin: 50px auto;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 4px 4px 3px 0px rgba(199, 26, 35, 0.61) ;
@@ -69,6 +69,15 @@ html {
     box-shadow: 2px 3px 6px rgb(196, 12, 12);
     border-radius: 5px;
 }
+#instruction span{
+    transition: all 0.3s;
+    cursor:none;
+}
+#instruction span:hover {
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: large;
+}
 #choices {
     width: 450px;
     height: 100px;
@@ -95,8 +104,11 @@ html {
     -o-transition: all 0.3s;
 }
 .box:hover {
-    background-color: rgba(39, 224, 215, 0.808);
+    background-color: rgba(115, 255, 0, 0.904);
     box-shadow: 2px 2px 10px rgb(225, 229, 248);
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 2px 2px red;
 }
 .box:active{
     box-shadow: 0px 0px rgb(225, 229, 248);
@@ -128,9 +140,29 @@ html {
     box-shadow: 0px 0px rgb(225, 229, 248);
     top: 4px;
 }
+#startReset:hover {
+    background-color: green;
+    color: white;
+}
 #timer {
-    width: 200px;
+    width: 180px;
     padding: 10px;
     position: absolute;
     bottom: 380px;
+    /* visibility: hidden; */
+    display: none;
+}
+#gameOver {
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(rgb(218, 112, 112) , rgb(221, 6, 6));
+    color: rgb(199, 217, 231);
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    display: none;
+    font-family: cursive , sans-serif;
 }
